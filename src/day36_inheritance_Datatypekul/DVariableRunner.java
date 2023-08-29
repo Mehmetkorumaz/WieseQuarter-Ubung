@@ -11,6 +11,7 @@ public class DVariableRunner {
         System.out.println(avciKusKartal.solunum); // B akciger
         System.out.println(avciKusKartal.cogalma); // B Yumurtayla
         System.out.println(avciKusKartal.omur); // A yasar ve olur
+
         BKuslar kusKartal = new CAvciKuslar();
         System.out.println(kusKartal.hareket); // A hareket eder
         System.out.println(kusKartal.beslenme); // A beslenir
@@ -20,6 +21,7 @@ public class DVariableRunner {
         System.out.println(kusKartal.solunum); // B akciger
         System.out.println(kusKartal.cogalma); // B Yumurtayla
         System.out.println(kusKartal.omur); // A yasar ve olur
+
         AHayvan hayvanKartal = new CAvciKuslar();
         System.out.println(hayvanKartal.hareket); // A hareket eder
         System.out.println(hayvanKartal.beslenme); // A Beslenir
