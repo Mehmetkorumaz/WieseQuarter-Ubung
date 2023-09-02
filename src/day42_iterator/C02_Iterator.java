@@ -18,9 +18,9 @@ public class C02_Iterator {
         // index kullanmadan 10'dan buyuk olan elementleri silin
 
 
-        Iterator itr = sayilar.iterator();
+        Iterator itr = sayilar.iterator();//[5, 23, 2, 13, 1]
 
-        while (itr.hasNext()){
+        while (itr.hasNext()){ // hasnext bir booluen dir false yada true dondurur.
 
             Integer sayi = (Integer) itr.next();
             if (sayi>10){
@@ -38,6 +38,8 @@ public class C02_Iterator {
         sayilar.add(24);
         sayilar.add(13);
         sayilar.add(11);
+        sayilar.add(14);
+        System.out.println(sayilar);
 
         // for loop kullanarak 10'dan buyuk sayilari silin
 

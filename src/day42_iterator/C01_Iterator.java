@@ -23,12 +23,9 @@ public class C01_Iterator {
         // index kullanmadan tum elementleri 2'ser artirin
 
         System.out.println("For each loop'dan once arr : " + Arrays.toString(arr));
-        for (int each : arr
-        ) {
-
+        for (int each : arr) {
             each += 2;
         }
-
         System.out.println("For each loop'dan sonra arr : " + Arrays.toString(arr));
 
 
